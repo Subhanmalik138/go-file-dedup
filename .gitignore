@@ -1,0 +1,13 @@
+# binaries
+dedup
+*.exe
+
+# go build cache artifacts (not needed in-repo)
+/bin/
+/pkg/
+
+# editor
+.idea/
+.vscode/
+*.swp
+.DS_Store
